@@ -66,7 +66,7 @@ dados/users.json
     "email": "usuario2@email.com",
     "password": "abcdef"
   }
-]
+]```
 
 ## 📊 Relatórios
 Você pode exportar os resultados para JSON e visualizá-los com outras ferramentas:
