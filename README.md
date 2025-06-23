@@ -51,7 +51,8 @@ k6 login cloud
 k6 cloud scripts/06_cloud_test.js
 
 ## 📦 Dados externos
-O script 03_post_dados_externos.js usa um arquivo chamado users.json. Exemplo:
+O script 03_post_dados_externos.js usa um arquivo chamado users.json. 
+Exemplo:
 dados/users.json
 
 
@@ -70,8 +71,6 @@ dados/users.json
 
 ## 📊 Relatórios
 Você pode exportar os resultados para JSON e visualizá-los com outras ferramentas:
-
-
 k6 run scripts/04_thresholds.js --out json=resultado.json
 Ferramentas externas como o k6-reporter permitem conversão para HTML.
 
