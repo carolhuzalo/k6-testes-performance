@@ -33,13 +33,13 @@ Este repositório contém uma coleção de scripts de testes de performance util
 
 1. Instale o K6
 
-Linux (Debian/Ubuntu):
+### Linux (Debian/Ubuntu):
 sudo apt install k6
 
-MacOS:
+### MacOS:
 brew install k6
 
-Windows (via Chocolatey):
+### Windows (via Chocolatey):
 choco install k6
 
 2. Rode um script
