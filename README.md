@@ -30,7 +30,7 @@ Este repositório contém uma coleção de scripts de testes de performance util
 
 ### 1. Instale o K6
 
-#### Linux (Debian/Ubuntu):
+#### Linux (Debian/Ubuntu): 
 `sudo apt install k6`
 
 #### MacOS:
@@ -44,30 +44,30 @@ Este repositório contém uma coleção de scripts de testes de performance util
 
 ### 3. Execute no K6 Cloud (requer login)
 
- `k6 login cloud`
+`k6 login cloud`
 
- `k6 cloud scripts/06_cloud_test.js`
+`k6 cloud scripts/06_cloud_test.js`
 
 
 
 ## 📦 Dados externos
 O script 03_post_dados_externos.js usa um arquivo chamado `users.json.` 
 Exemplo:
-dados/users.json
+ dados/users.json
 
-```json
-[
-  {
-    "username": "usuario1",
-    "email": "usuario1@email.com",
-    "password": "123456"
-  },
-  {
-    "username": "usuario2",
-    "email": "usuario2@email.com",
-    "password": "abcdef"
-  }
-]
+  ```json
+  [
+    {
+      "username": "usuario1",
+      "email": "usuario1@email.com",
+      "password": "123456"
+    },
+    {
+      "username": "usuario2",
+      "email": "usuario2@email.com",
+      "password": "abcdef"
+    }
+  ]
 ```
 
 
@@ -82,8 +82,7 @@ Ferramentas externas como o `k6-reporter` permitem conversão para HTML.
 
 ## 🔧 Tecnologias
 * K6 – Framework para testes de carga
-
-* JavaScript ES6
+ * JavaScript ES6
 
 
 
