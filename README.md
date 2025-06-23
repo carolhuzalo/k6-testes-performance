@@ -54,8 +54,7 @@ k6 cloud scripts/06_cloud_test.js
 O script 03_post_dados_externos.js usa um arquivo chamado users.json. 
 Exemplo:
 dados/users.json
-
-
+```json
 [
   {
     "username": "usuario1",
