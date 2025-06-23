@@ -75,8 +75,7 @@ Exemplo:
 ## 📊 Relatórios
 * Você pode exportar os resultados para JSON e visualizá-los com outras ferramentas:
 * `k6 run scripts/04_thresholds.js --out json=resultado.json`
-
-Ferramentas externas como o `k6-reporter` permitem conversão para HTML.
+* Ferramentas externas como o `k6-reporter` permitem conversão para HTML.
 
 
 
